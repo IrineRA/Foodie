@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".recyclerview">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/g58"
+                                android:layout_width="280dp"
+                                android:layout_height="80dp"
+                                android:background="@drawable/castel56"></ImageView>
+
+                            <TextView
+                                android:id="@+id/g57"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="30dp"
+                                android:layout_marginTop="30dp"
+                                android:layout_marginEnd="30dp"
+                                android:layout_marginBottom="30dp"
+                                android:text="SOUTH INDIAN"
+                                android:textSize="22dp"
+                                android:textStyle="bold"></TextView>
+                        </RelativeLayout>
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="80dp"
+                            android:background="@drawable/vg45"></ImageView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="45dp"
+                            android:layout_margin="10dp"
+                            android:src="@drawable/rt56"></ImageView>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/white2"
+                            android:elevation="5dp"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:id="@+id/i1"
+                                    android:layout_width="20dp"
+                                    android:layout_height="30dp"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginEnd="5dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:src="@drawable/ty67"></ImageView>
+
+                                <EditText
+                                    android:id="@+id/i2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_toRightOf="@+id/i1"
+                                    android:backgroundTint="@color/white"
+                                    android:hint="Search for products         "
+                                    android:textSize="14sp"></EditText>
+
+                                <ImageView
+                                    android:id="@+id/i3"
+                                    android:layout_width="20dp"
+                                    android:layout_height="30dp"
+                                    android:layout_margin="5dp"
+                                    android:layout_toRightOf="@id/i2"
+                                    android:src="@drawable/iu89"></ImageView>
+
+                                <ImageView
+                                    android:id="@+id/i4"
+                                    android:layout_width="20dp"
+                                    android:layout_height="30dp"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginEnd="5dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_toRightOf="@id/i3"
+                                    android:src="@drawable/iu7"></ImageView>
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/rede4"
+                            android:padding="6dp"
+                            android:text="               Restaurant             "
+                            android:textColor="@color/white"></TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/rede4"
+                            android:padding="6dp"
+                            android:text="                 Dishes               "
+                            android:textColor="@color/white"></TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="6dp"
+                            android:background="@drawable/green6"
+                            android:orientation="horizontal"
+                            android:padding="4dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:text="  Sort   "
+                                android:textSize="14dp"></TextView>
+
+                            <ImageView
+                                android:layout_width="10dp"
+                                android:layout_height="10dp"
+                                android:layout_margin="5dp"
+                                android:src="@drawable/arrowd"></ImageView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="6dp"
+                            android:background="@drawable/green6"
+                            android:orientation="horizontal"
+                            android:padding="4dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:text="Nearest"
+                                android:textSize="14dp"></TextView>
+
+                            <ImageView
+                                android:layout_width="10dp"
+                                android:layout_height="10dp"
+                                android:layout_margin="5dp"
+                                android:src="@drawable/arrowd"></ImageView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="6dp"
+                            android:background="@drawable/green6"
+                            android:orientation="horizontal"
+                            android:padding="4dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:text="Rating  "
+                                android:textSize="14dp"></TextView>
+
+                            <ImageView
+                                android:layout_width="10dp"
+                                android:layout_height="10dp"
+                                android:layout_margin="5dp"
+                                android:src="@drawable/arrowd"></ImageView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:background="@drawable/green6"
+                            android:orientation="horizontal"
+                            android:padding="6dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:text="Pure Veg"
+                                android:textSize="14dp"></TextView>
+
+                            <ImageView
+                                android:layout_width="10dp"
+                                android:layout_height="10dp"
+                                android:layout_margin="5dp"
+                                android:src="@drawable/arrowd"></ImageView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_marginLeft="22dp"
+        android:id="@+id/recycle1"
+        android:orientation="vertical">
+
+    </androidx.recyclerview.widget.RecyclerView>
+            </LinearLayout>
+
+
+</ScrollView>
+    </LinearLayout>
+    </LinearLayout>

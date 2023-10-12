@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+android:background="@color/white"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent"
+    tools:context=".payment">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <ImageView
+        android:layout_width="600dp"
+        android:layout_height="200dp"
+        android:background="@drawable/animationback"
+        ></ImageView>
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation1"
+        android:layout_width="700dp"
+        android:layout_height="180dp"
+android:layout_marginLeft="200dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/animationi1"></com.airbnb.lottie.LottieAnimationView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:backgroundTint="#007777"
+
+        android:id="@+id/getLocation"
+        android:layout_below="@+id/animation1"
+        android:text="Get Location"
+        android:layout_centerHorizontal="true"
+
+        />
+        </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/fetch"
+        android:layout_below="@+id/getLocation"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/getLocation"
+android:layout_marginLeft="30dp"
+        android:text="Address       :  "
+      />
+
+    <TextView
+        android:id="@+id/city"
+        android:textSize="12sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address"
+        android:layout_alignStart="@id/address"
+android:layout_marginLeft="30dp"
+        android:text="City               :"
+      />
+
+    <TextView
+        android:id="@+id/or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/city"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+   android:textColor="#008b8b"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="                       --------------------   OR   -----------------------"></TextView>
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fetch"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+         android:textSize="12sp"
+
+            android:layout_marginLeft="30dp"
+            android:text="Full name (First and Last name)"></TextView>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:elevation="2dp"
+            android:background="@drawable/shapebox"
+
+></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:text="Mobile Number"></TextView>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:elevation="2dp"
+            android:background="@drawable/shapebox"
+
+            ></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:text="House No,Flat,Apartment,Company"></TextView>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:elevation="2dp"
+            android:background="@drawable/shapebox"
+
+            ></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:text="Mobile Number"></TextView>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:elevation="2dp"
+            android:background="@drawable/shapebox"
+
+            ></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:text="Area, Street, Sector, Village"></TextView>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:elevation="2dp"
+            android:background="@drawable/shapebox"
+
+            ></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:text="Pincode"></TextView>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:elevation="2dp"
+            android:background="@drawable/shapebox"
+
+            ></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:text="Town/City"></TextView>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:elevation="2dp"
+            android:background="@drawable/shapebox"
+
+            ></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:text="Delivery Instruction (Optional)"></TextView>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:elevation="2dp"
+            android:background="@drawable/shapebox"
+
+            ></ImageView>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:backgroundTint="#007777"
+android:layout_gravity="center"
+            android:id="@+id/gopayment"
+            android:text="Use this Address"
+            android:layout_centerHorizontal="true"
+
+            />
+
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
